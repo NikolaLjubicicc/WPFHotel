@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFHotel.Forme.Soba"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFHotel.Forme"
+        mc:Ignorable="d"
+        Title="Dodaj/izmeni Sobu" Height="200" Width="300">
+    <Grid>
+        <Label Content="Broj sobe:" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top"/>
+        <Label Content="Sprat sobe:" HorizontalAlignment="Left" Margin="20,50,0,0" VerticalAlignment="Top"/>
+        <Label Content="Raspolozivost:" HorizontalAlignment="Left" Margin="20,80,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtBrojSobe" HorizontalAlignment="Left" Height="23" Margin="130,20,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtSpratSobe" HorizontalAlignment="Left" Height="23" Margin="130,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Name="cbxRaspolozivost" Content="" HorizontalAlignment="Left" Margin="140,85,0,0" VerticalAlignment="Top"/>
+        <Button Name="btnSacuvaj" Content="Sačuvaj" HorizontalAlignment="Left" Margin="30,140,0,0" VerticalAlignment="Top" Width="75" Click="btnSacuvaj_Click" />
+        <Button Name="btnOtkazi" Content="Otkaži" HorizontalAlignment="Left" Margin="180,140,0,0" VerticalAlignment="Top" Width="75" Click="btnOtkazi_Click" />
+    </Grid>
+</Window>
